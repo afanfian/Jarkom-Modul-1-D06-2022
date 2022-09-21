@@ -1,10 +1,13 @@
-# Jarkom-Modul-1-D06-2022  
-## Praktikum Modul 1  
-## “Crimping dan Wireshark”  
-### Anggota Kelompok:  
-### Fian Awamiry Maulana - 5025201035  
-### Rere Arga Dewanata- 5025201078  
-### Muhamad Ridho Pratama - 5025201186 
+# Laporan Resmi Praktikum Modul 1 Kelompok D06 Jaringan Komputer D Tahun 2022/2023
+
+Kelompok D06 Jaringan Komputer D Tahun 2022/2023
+
+### Anggota Kelompok:
+Nama Lengkap                | NRP
+----------------------------| -------------
+Fian Awamiry Maulana        | 5025201035 
+Rere Arga Dewanata          | 5025201078 
+Muhamad Ridho Pratama       | 5025201186
 
 #### 1. Sebutkan web server yang digunakan pada "monta.if.its.ac.id"!  
 #### Jawab:  
