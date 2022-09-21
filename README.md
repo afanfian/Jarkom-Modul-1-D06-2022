@@ -7,7 +7,21 @@ Nama Lengkap                | NRP
 --------------------------- | -------------
 Fian Awamiry Maulana        | 5025201035 
 Rere Arga Dewanata          | 5025201078 
-Muhamad Ridho Pratama       | 5025201186
+Muhamad Ridho Pratama       | 5025201186  
+
+## Daftar Isi  
+- [Soal1](#soal-1)
+- [Soal2](#soal-2)
+- [Soal3](#soal-3)
+- [Soal4](#soal-4)
+- [Soal5](#soal-5)
+- [Soal6](#soal-6)
+- [Soal7](#soal-7)
+- [Soal8](#soal-8)
+- [Soal9](#soal-9)
+- [Soal10](#soal-10)
+- [Kendala](#kendala)
+
 
 ## Soal 1   
    Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! 
@@ -81,6 +95,8 @@ Muhamad Ridho Pratama       | 5025201186
    
    Cara kedua -> Menggunakan display filter dengan syntax sebagai berikut: `(ip.src == 127.0.0.1 && tcp.flags.push == 1) || (ip.src == 127.0.1.1 && tcp.flags.push == 1)`.  
    
+   [Gambar-Gambar Soal 8 Cara Kedua](https://drive.google.com/drive/folders/170caLhlqn-XE6bIaBbGWoj2d1IY-Dlv8?usp=sharing)
+   
 ## Soal 9  
    Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format `[nama_kelompok].des3` dan simpan output file dengan nama `flag.txt`.  
    
@@ -106,4 +122,4 @@ Muhamad Ridho Pratama       | 5025201186
    ![Soal10](https://user-images.githubusercontent.com/70679432/191624474-6349ef33-9631-4251-8552-d7fd8658f40b.png)
    
 ## Kendala  
-- Tidak mengetahui bahwa file salt harus diubah dulu menjadi bertipe raw baru bisa dilakukan decrypt menggunakan openssl des3
+- Tidak mengetahui bahwa file salt harus diubah dulu menjadi bertipe raw baru bisa dilakukan decrypt menggunakan openssl des3. Sehingga, harus mencoba-coba semua format yang ada.
