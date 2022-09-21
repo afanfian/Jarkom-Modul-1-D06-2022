@@ -1,10 +1,10 @@
 # Laporan Resmi Praktikum Modul 1 Kelompok D06 Jaringan Komputer D Tahun 2022/2023
 
-Kelompok D-06 Jaringan Komputer D Tahun 2022/2023
+Dokumen laporan resmi praktikum modul 1 kelompok D-06 Jaringan Komputer D Tahun 2022/2023
 
 ### Anggota Kelompok:
 Nama Lengkap                | NRP
-----------------------------| -------------
+--------------------------- | -------------
 Fian Awamiry Maulana        | 5025201035 
 Rere Arga Dewanata          | 5025201078 
 Muhamad Ridho Pratama       | 5025201186
@@ -25,13 +25,20 @@ Muhamad Ridho Pratama       | 5025201186
        
    Dari file html “194”, judul TA-nya adalah “Evaluasi unjuk kerja User Space Filesystem FUSE” atau dengan judul “Evaluasi unjuk kerja User Space  Filesystem  (FUSE)” pada http://monta.if.its.ac.id/index.php/topik/detailTopik/194.  
 
-#### 3. Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!  
-#### Jawab:
-##### Pada display filter, terapkan: ```tcp.dstport == 80 || udp.dstport == 80```.  
-#### 4. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!  
-#### Jawab:
-##### Pada capture filter, terapkan: ```src port 21```.  
-#### 5. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!  
+## Soal 3  
+   Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!      
+   
+   **Jawaban Soal 3**  
+   Pada display filter, terapkan: `tcp.dstport == 80 || udp.dstport == 80`.  
+   
+## Soal 4   
+   Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!  
+   
+   **Jawaban Soal 4**  
+   Pada capture filter, terapkan: `src port 21`.  
+  
+## Soal 5 
+   Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!  
 #### Jawab:
 ##### Pada capture filter, terapkan: ```src port 443```.  
 #### 6. Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id!  
