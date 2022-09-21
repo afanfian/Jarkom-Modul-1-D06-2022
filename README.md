@@ -1,6 +1,6 @@
 # Laporan Resmi Praktikum Modul 1 Kelompok D06 Jaringan Komputer D Tahun 2022/2023
 
-Kelompok D06 Jaringan Komputer D Tahun 2022/2023
+Kelompok D-06 Jaringan Komputer D Tahun 2022/2023
 
 ### Anggota Kelompok:
 Nama Lengkap                | NRP
@@ -9,15 +9,21 @@ Fian Awamiry Maulana        | 5025201035
 Rere Arga Dewanata          | 5025201078 
 Muhamad Ridho Pratama       | 5025201186
 
-#### 1. Sebutkan web server yang digunakan pada "monta.if.its.ac.id"!  
-#### Jawab:  
-##### “monta.if.its.ac.id” menggunakan web server nginx ```“nginx/1.10.3\r\n”```.  
-#### 2.Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan ```detail topik``` pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?  
-#### Jawab:  
-##### 1. Pertama, filter pada display filter dengan ```http.request.uri contains “detail”``` untuk mendapatkan keyword dari “detail topik” pada soal.
-##### 2. Lalu didapatkan info ```/index.php/topik/detailTopik/194```.  
-##### 3. Export objects, ambil file html-nya
-##### Dari file html “194”, judul TA-nya adalah ```“Evaluasi unjuk kerja User Space Filesystem FUSE”``` atau dengan judul ```“Evaluasi unjuk kerja User Space Filesystem (FUSE)”``` pada http://monta.if.its.ac.id/index.php/topik/detailTopik/194.  
+## Soal 1   
+   Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! 
+   
+   **Jawaban Soal 1**          
+   monta.if.its.ac.id meggunakan web server nginx/1.10.3  
+       
+## Soal 2  
+   Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan ```detail topik``` pada website  “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq?  
+   
+**Jawaban Soal 2**  
+1. Pertama-tama, filter pada display filter dengan ```http.request.uri contains “detail”``` untuk mendapatkan keyword dari “detail topik” pada soal.
+2. Lalu didapatkan info ```/index.php/topik/detailTopik/194```.  
+3. Export objects, ambil file html-nya.    
+Dari file html “194”, judul TA-nya adalah ```“Evaluasi unjuk kerja User Space Filesystem FUSE”``` atau dengan judul ```“Evaluasi unjuk kerja User Space  Filesystem (FUSE)”``` pada http://monta.if.its.ac.id/index.php/topik/detailTopik/194.  
+
 #### 3. Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!  
 #### Jawab:
 ##### Pada display filter, terapkan: ```tcp.dstport == 80 || udp.dstport == 80```.  
