@@ -16,13 +16,14 @@ Muhamad Ridho Pratama       | 5025201186
    monta.if.its.ac.id meggunakan web server nginx/1.10.3  
        
 ## Soal 2  
-   Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan ```detail topik``` pada website  “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq?  
+   Ishaq sedang bingung mencari topik TA untuk semester ini, lalu ia datang ke website monta dan menemukan `detail topik` pada website “monta.if.its.ac.id”, judul TA apa yang dibuka oleh Ishaq?  
    
-**Jawaban Soal 2**  
-1. Pertama-tama, filter pada display filter dengan ```http.request.uri contains “detail”``` untuk mendapatkan keyword dari “detail topik” pada soal.
-2. Lalu didapatkan info ```/index.php/topik/detailTopik/194```.  
-3. Export objects, ambil file html-nya.    
-Dari file html “194”, judul TA-nya adalah ```“Evaluasi unjuk kerja User Space Filesystem FUSE”``` atau dengan judul ```“Evaluasi unjuk kerja User Space  Filesystem (FUSE)”``` pada http://monta.if.its.ac.id/index.php/topik/detailTopik/194.  
+   **Jawaban Soal 2**  
+   1. Pertama-tama, filter pada display filter dengan ```http.request.uri contains “detail”``` untuk mendapatkan keyword dari “detail topik” pada soal.
+   2. Lalu didapatkan info ```/index.php/topik/detailTopik/194```.  
+   3. Export objects, ambil file html-nya.  
+       
+   Dari file html “194”, judul TA-nya adalah “Evaluasi unjuk kerja User Space Filesystem FUSE” atau dengan judul “Evaluasi unjuk kerja User Space  Filesystem  (FUSE)” pada http://monta.if.its.ac.id/index.php/topik/detailTopik/194.  
 
 #### 3. Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!  
 #### Jawab:
