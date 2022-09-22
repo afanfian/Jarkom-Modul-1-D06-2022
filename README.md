@@ -123,3 +123,4 @@ Muhamad Ridho Pratama       | 5025201186
    
 ## Kendala  
 - Tidak mengetahui bahwa file salt harus diubah dulu menjadi bertipe raw baru bisa dilakukan decrypt menggunakan openssl des3. Sehingga, harus mencoba-coba semua format yang ada.
+- Sempat kebingungan dalam implementasi capture filter, karena sudah mencoba menyalakan FTP Server, FTP Client dan mengirimkan file tetapi data record di Wireshark tidak kedeteksi atau kosong
