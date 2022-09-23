@@ -101,15 +101,15 @@ Muhamad Ridho Pratama       | 5025201186
    Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format `[nama_kelompok].des3` dan simpan output file dengan nama `flag.txt`.  
    
    **Jawaban Soal 9**  
-   1. Berdasarkan percakapan kedua orang diatas, dapat diketahui bahwa file salt dikirim menggunakan `port 9002`. Oleh karena itu, tampilkan file salt yang dikirim menggunakan `port 9002`.  
+   1. Berdasarkan percakapan kedua orang diatas, dapat diketahui bahwa file salt dikirim menggunakan `port 9002`. Oleh karena itu, tampilkan file salt yang dikirim menggunakan `port 9002`. dengan cara mengggunakan display filter `( (ip.src == 127.0.0.1 && tcp.flags.push == 1) || (ip.src == 127.0.1.1 && tcp.flags.push == 1)) && tcp.port == 9002` 
    
-      ![Soal9_i](https://user-images.githubusercontent.com/70679432/191624307-c4bac331-d34a-4f4a-84cd-36e0ae94e2f8.png)
+      ![image](https://user-images.githubusercontent.com/70679432/191922318-72bb08f6-ffd2-439a-9f8d-a7cac8a7ab5d.png)
    
    2. Ubah file salt yang telah ditemukan menjadi `raw dan simpan dengan format `[nama_kelompok].des3`.  
    
       ![Soal9_ii](https://user-images.githubusercontent.com/70679432/191624360-cc6d1747-e580-4c9f-a98c-721ad061e973.png)
    
-   3. Berdasarkan percakapan kedua orang tersebut, dapat diketahui bahwa salt di-encrypt dengan openssl metode des3. Oleh karena itu, buka terminal dengan mengetikkan command ini `“openssl des3 -d -in D06.des3 -out flag.txt”` untuk melakukan decrypt. Input password sesuai hint dari percakapan `(password = nakano)`. 
+   3. Berdasarkan percakapan kedua orang tersebut, dapat diketahui bahwa salt di-encrypt dengan openssl metode des3. Oleh karena itu, buka terminal dengan mengetikkan command ini `openssl des3 -d -in D06.des3 -out flag.txt`untuk melakukan decrypt. Input password sesuai hint dari percakapan `(password = nakano)`. 
    
       ![Soal9_iii](https://user-images.githubusercontent.com/70679432/191624391-d75e117e-73cf-4d73-bfb8-0a31449d372b.png)
    
